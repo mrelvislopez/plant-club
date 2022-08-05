@@ -137,7 +137,7 @@ nav img {
 }
 
 #heroimg {
-    flex: 40%;
+    flex: 50%;
 }
 
 #herocontent {
@@ -327,20 +327,7 @@ footer a{
 }
 
 /* Mobile Styles */
-
-@media only screen and (max-width: 900px) { 
-   
-    /* universal */
-    h1 {
-        font-size: 56px;
-    }
-    
-    h2 {
-        font-size: 48px;
-       
-    }
-    
-    
+@media only screen and (max-width: 1000px)  {
     /* Nav */
     nav {
         display: flex;
@@ -369,6 +356,19 @@ footer a{
         margin: 10px;
     }
 
+}
+
+@media only screen and (max-width: 850px) { 
+   
+    /* universal */
+    h1 {
+        font-size: 56px;
+    }
+    
+    h2 {
+        font-size: 48px;
+       
+    }
 
     /* Hero */
     #hero {
